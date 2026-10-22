@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>홍길동의 연습 사이트</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
@@ -14,33 +17,52 @@
       align-items: center;
       text-align: center;
       font-family: sans-serif;
+      background-color: #ffe4ec;
+      color: #5b4a55;
+    }
+    h1 {
+      margin: 0 0 24px;
+      font-family: 'Jua', sans-serif;
+      font-weight: normal;
+      color: #e27396;
+    }
+    .card {
+      margin: 16px;
+      padding: 32px 40px;
+      border-radius: 24px;
+      background-color: white;
+      box-shadow: 0 8px 24px rgba(226, 115, 150, 0.15);
     }
     .button {
       display: inline-block;
       padding: 12px 24px;
-      background-color: #3b82f6;
+      background-color: #f7a8c4;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 999px;
       font-size: 16px;
     }
     .button:hover {
-      background-color: #2563eb;
+      background-color: #f28bb0;
     }
     .button:active {
-      background-color: #ef4444;
+      background-color: #c3aed6;
     }
     .buttons {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 12px;
     }
   </style>
 </head>
 <body>
-  <h1>안녕하세요, 홍길동의 연습 사이트입니다.</h1>
-  <div class="buttons">
-    <a class="button" href="about.html">about 페이지로 가기</a>
-    <a class="button" href="contact.html">contact 페이지로 가기</a>
-  </div>
+  <main class="card">
+    <h1>안녕하세요, 홍길동의 연습 사이트입니다.</h1>
+    <div class="buttons">
+      <a class="button" href="about.html">about 페이지로 가기</a>
+      <a class="button" href="contact.html">contact 페이지로 가기</a>
+    </div>
+  </main>
 </body>
 </html>
