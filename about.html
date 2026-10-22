@@ -30,6 +30,14 @@
     .button:active {
       background-color: #ef4444;
     }
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: 66% center;
+      margin-bottom: 16px;
+    }
     .profile {
       margin: 8px 0 32px;
       padding: 24px 32px;
@@ -61,6 +69,7 @@
 </head>
 <body>
   <h1>이 곳은 About 페이지입니다</h1>
+  <img class="profile-image" src="profile.jpg" alt="프로필 사진">
   <section class="profile">
     <h2>이름</h2>
     <p>홍길동</p>
