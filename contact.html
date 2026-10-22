@@ -42,12 +42,21 @@
     .button:active {
       background-color: #c3aed6;
     }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
   </style>
 </head>
 <body>
   <main class="card">
     <p>연락처: example@email.com</p>
-    <a class="button" href="index.html">메인으로 돌아가기</a>
+    <div class="buttons">
+      <a class="button" href="index.html">메인으로 돌아가기</a>
+      <a class="button" href="projects.html">projects 페이지로 가기</a>
+    </div>
   </main>
 </body>
 </html>
